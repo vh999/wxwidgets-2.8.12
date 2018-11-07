@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Debug|Win32">
+      <Configuration>DLL Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Release|Win32">
+      <Configuration>DLL Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Unicode Debug|Win32">
+      <Configuration>DLL Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Unicode Release|Win32">
+      <Configuration>DLL Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Universal Debug|Win32">
+      <Configuration>DLL Universal Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Universal Release|Win32">
+      <Configuration>DLL Universal Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Universal Unicode Debug|Win32">
+      <Configuration>DLL Universal Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Universal Unicode Release|Win32">
+      <Configuration>DLL Universal Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Universal Debug|Win32">
+      <Configuration>Universal Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Universal Release|Win32">
+      <Configuration>Universal Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Universal Unicode Debug|Win32">
+      <Configuration>Universal Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Universal Unicode Release|Win32">
+      <Configuration>Universal Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{E0C1BF61-E9DC-463E-9A8B-1DC89506B34C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_lib\</OutDir>
+    <IntDir>.\vc_mswd\gizmos\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_dll\</OutDir>
+    <IntDir>.\vc_mswudll\gizmos\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_dll\</OutDir>
+    <IntDir>.\vc_mswdll\gizmos\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_dll\</OutDir>
+    <IntDir>.\vc_mswunivdll\gizmos\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_dll\</OutDir>
+    <IntDir>.\vc_mswunivddll\gizmos\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_lib\</OutDir>
+    <IntDir>.\vc_mswud\gizmos\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_lib\</OutDir>
+    <IntDir>.\vc_mswunivu\gizmos\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_dll\</OutDir>
+    <IntDir>.\vc_mswddll\gizmos\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_lib\</OutDir>
+    <IntDir>.\vc_mswunivd\gizmos\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_dll\</OutDir>
+    <IntDir>.\vc_mswunivuddll\gizmos\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_lib\</OutDir>
+    <IntDir>.\vc_mswuniv\gizmos\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_lib\</OutDir>
+    <IntDir>.\vc_mswunivud\gizmos\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_dll\</OutDir>
+    <IntDir>.\vc_mswunivudll\gizmos\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_dll\</OutDir>
+    <IntDir>.\vc_mswuddll\gizmos\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_lib\</OutDir>
+    <IntDir>.\vc_mswu\gizmos\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\..\..\src\gizmos\..\..\..\lib\vc_lib\</OutDir>
+    <IntDir>.\vc_msw\gizmos\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_lib\mswd;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;_DEBUG;__WXMSW__;__WXDEBUG__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswd\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswd\wxprec_gizmoslib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswd\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmsw25d_gizmos.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_lib\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmsw25d_gizmos.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswu;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;__WXMSW__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswudll\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswudll\wxprec_gizmosdll.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswudll\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw255u_gizmos_vc_custom.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;__WXMSW__;_UNICODE;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswu;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__WXMSW__;_UNICODE;WXDLLNAME=wxmsw255u_gizmos_vc_custom;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw255u_gizmos_vc_custom.dll</OutputFile>
+      <ImportLibrary>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw25u_gizmos.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\src\gizmos\..\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;odbc32.lib;wxbase25u.lib;wxmsw25u_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\msw;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;__WXMSW__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswdll\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswdll\wxprec_gizmosdll.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswdll\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw255_gizmos_vc_custom.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;__WXMSW__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\msw;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__WXMSW__;WXDLLNAME=wxmsw255_gizmos_vc_custom;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw255_gizmos_vc_custom.dll</OutputFile>
+      <ImportLibrary>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw25_gizmos.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\src\gizmos\..\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregex.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;odbc32.lib;wxbase25.lib;wxmsw25_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswuniv;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;__WXMSW__;__WXUNIVERSAL__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivdll\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswunivdll\wxprec_gizmosdll.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswunivdll\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv255_gizmos_vc_custom.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;__WXMSW__;__WXUNIVERSAL__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswuniv;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__WXMSW__;__WXUNIVERSAL__;WXDLLNAME=wxmswuniv255_gizmos_vc_custom;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv255_gizmos_vc_custom.dll</OutputFile>
+      <ImportLibrary>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv25_gizmos.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\src\gizmos\..\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregex.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;odbc32.lib;wxbase25.lib;wxmswuniv25_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswunivd;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;_DEBUG;__WXMSW__;__WXUNIVERSAL__;__WXDEBUG__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivddll\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswunivddll\wxprec_gizmosdll.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswunivddll\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv255d_gizmos_vc_custom.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;_DEBUG;__WXMSW__;__WXUNIVERSAL__;__WXDEBUG__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswunivd;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXUNIVERSAL__;__WXDEBUG__;WXDLLNAME=wxmswuniv255d_gizmos_vc_custom;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv255d_gizmos_vc_custom.dll</OutputFile>
+      <ImportLibrary>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv25d_gizmos.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\src\gizmos\..\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;odbc32.lib;wxbase25d.lib;wxmswuniv25d_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_lib\mswud;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;_DEBUG;__WXMSW__;__WXDEBUG__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswud\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswud\wxprec_gizmoslib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswud\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmsw25ud_gizmos.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_lib\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmsw25ud_gizmos.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_lib\mswunivu;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;__WXMSW__;__WXUNIVERSAL__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivu\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswunivu\wxprec_gizmoslib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswunivu\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmswuniv25u_gizmos.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_lib\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmswuniv25u_gizmos.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswd;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;_DEBUG;__WXMSW__;__WXDEBUG__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswddll\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswddll\wxprec_gizmosdll.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswddll\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw255d_gizmos_vc_custom.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;_DEBUG;__WXMSW__;__WXDEBUG__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswd;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXDEBUG__;WXDLLNAME=wxmsw255d_gizmos_vc_custom;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw255d_gizmos_vc_custom.dll</OutputFile>
+      <ImportLibrary>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw25d_gizmos.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\src\gizmos\..\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;odbc32.lib;wxbase25d.lib;wxmsw25d_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_lib\mswunivd;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;_DEBUG;__WXMSW__;__WXUNIVERSAL__;__WXDEBUG__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivd\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswunivd\wxprec_gizmoslib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswunivd\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmswuniv25d_gizmos.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_lib\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmswuniv25d_gizmos.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswunivud;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;_DEBUG;__WXMSW__;__WXUNIVERSAL__;__WXDEBUG__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivuddll\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswunivuddll\wxprec_gizmosdll.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswunivuddll\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv255ud_gizmos_vc_custom.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;_DEBUG;__WXMSW__;__WXUNIVERSAL__;__WXDEBUG__;_UNICODE;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswunivud;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXUNIVERSAL__;__WXDEBUG__;_UNICODE;WXDLLNAME=wxmswuniv255ud_gizmos_vc_custom;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv255ud_gizmos_vc_custom.dll</OutputFile>
+      <ImportLibrary>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv25ud_gizmos.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\src\gizmos\..\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;odbc32.lib;wxbase25ud.lib;wxmswuniv25ud_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_lib\mswuniv;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;__WXMSW__;__WXUNIVERSAL__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswuniv\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswuniv\wxprec_gizmoslib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswuniv\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmswuniv25_gizmos.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_lib\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmswuniv25_gizmos.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_lib\mswunivud;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;_DEBUG;__WXMSW__;__WXUNIVERSAL__;__WXDEBUG__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivud\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswunivud\wxprec_gizmoslib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswunivud\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmswuniv25ud_gizmos.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_lib\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmswuniv25ud_gizmos.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswunivu;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;__WXMSW__;__WXUNIVERSAL__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivudll\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswunivudll\wxprec_gizmosdll.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswunivudll\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv255u_gizmos_vc_custom.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswunivu;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXDLLNAME=wxmswuniv255u_gizmos_vc_custom;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv255u_gizmos_vc_custom.dll</OutputFile>
+      <ImportLibrary>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmswuniv25u_gizmos.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\src\gizmos\..\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;odbc32.lib;wxbase25u.lib;wxmswuniv25u_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswud;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;_DEBUG;__WXMSW__;__WXDEBUG__;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswuddll\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswuddll\wxprec_gizmosdll.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswuddll\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw255ud_gizmos_vc_custom.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_USRDLL;DLL_EXPORTS;_DEBUG;__WXMSW__;__WXDEBUG__;_UNICODE;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_dll\mswud;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXDEBUG__;_UNICODE;WXDLLNAME=wxmsw255ud_gizmos_vc_custom;WXUSINGDLL;WXMAKINGDLL_GIZMOS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_dll\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw255ud_gizmos_vc_custom.dll</OutputFile>
+      <ImportLibrary>..\..\src\gizmos\..\..\..\lib\vc_dll\wxmsw25ud_gizmos.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\src\gizmos\..\..\..\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;oleacc.lib;odbc32.lib;wxbase25ud.lib;wxmsw25ud_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_lib\mswu;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;__WXMSW__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswu\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_mswu\wxprec_gizmoslib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_mswu\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmsw25u_gizmos.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_lib\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmsw25u_gizmos.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>..\..\src\gizmos\..\..\..\include;..\..\src\gizmos\..\..\..\lib\vc_lib\msw;..\..\src\gizmos\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;__WXMSW__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_msw\gizmos\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>vc_msw\wxprec_gizmoslib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\vc_msw\gizmos\</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmsw25_gizmos.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\src\gizmos\..\..\..\lib\vc_lib\gizmos.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\src\gizmos\..\..\..\lib\vc_lib\wxmsw25_gizmos.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\common\dummy.cpp" />
+    <ClCompile Include="..\..\src\gizmos\dynamicsash.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gizmos\editlbox.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gizmos\ledctrl.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gizmos\multicell.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gizmos\splittree.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gizmos\statpict.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gizmos\xh_statpict.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\src\msw\version.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Release|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL Universal Release|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL Universal Debug|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Release|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Universal Debug|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Debug|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Universal Release|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Universal Unicode Debug|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL Universal Unicode Release|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL Unicode Debug|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">\ScratchArea\wxwidgets-2.8.12\src\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
